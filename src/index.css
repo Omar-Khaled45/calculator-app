@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* Styling */
+body {
+  background: rgb(23,218,212);
+  background: linear-gradient(90deg, rgba(23,218,212,1) 0%, rgba(18,194,65,1) 70%);
+  font-family: 'Quicksand', sans-serif;
+}
+.container .output {
+  padding: 15px;
+  min-height: 75px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, .75);
+  color: white
+}
+.container .output .previous-operand {
+  font-size: 14px;  
+  color: rgba(255, 255, 255, .75);
+}
+.container .output .current-operand {
+  font-size: 25px;  
+
+}
+.container button {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 0;
+  border: 1px solid white;
+  outline: none;
+}
+.container button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
